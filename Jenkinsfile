@@ -1,11 +1,6 @@
 pipeline {
     agent { 
-       label "slave1"
-    }
-
-    tools {
-        maven "Maven3.9.5"
-    }
+     
     
     stages {        
         stage ("Build") {
